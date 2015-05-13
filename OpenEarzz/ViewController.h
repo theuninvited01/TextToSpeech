@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import <Slt/Slt.h>
+#import <OpenEars/OEFliteController.h>
+#import <OpenEars/OEEventsObserver.h>
+@interface ViewController : UIViewController <OEEventsObserverDelegate>{
+    OEEventsObserver *openEarsEventsObserver;
+}
+@property (strong, nonatomic) IBOutlet UIButton *speakButton;
+@property (strong, nonatomic) OEEventsObserver *openEarsEventsObserver;
 @end
 

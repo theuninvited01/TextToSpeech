@@ -14,6 +14,12 @@
 		E1EE7D491B03B6B600C9B17D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1EE7D481B03B6B600C9B17D /* Images.xcassets */; };
 		E1EE7D4C1B03B6B600C9B17D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1EE7D4A1B03B6B600C9B17D /* LaunchScreen.xib */; };
 		E1EE7D581B03B6B600C9B17D /* OpenEarzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EE7D571B03B6B600C9B17D /* OpenEarzzTests.m */; };
+		E1EE7D621B03B6D300C9B17D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EE7D611B03B6D300C9B17D /* AVFoundation.framework */; };
+		E1EE7D641B03B6DA00C9B17D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EE7D631B03B6DA00C9B17D /* AudioToolbox.framework */; };
+		E1EE7D6A1B03B73900C9B17D /* AcousticModelEnglish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1EE7D661B03B73900C9B17D /* AcousticModelEnglish.bundle */; };
+		E1EE7D6B1B03B73900C9B17D /* AcousticModelSpanish.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1EE7D671B03B73900C9B17D /* AcousticModelSpanish.bundle */; };
+		E1EE7D6C1B03B73900C9B17D /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EE7D681B03B73900C9B17D /* OpenEars.framework */; };
+		E1EE7D6D1B03B73900C9B17D /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EE7D691B03B73900C9B17D /* Slt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		E1EE7D511B03B6B600C9B17D /* OpenEarzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenEarzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EE7D561B03B6B600C9B17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1EE7D571B03B6B600C9B17D /* OpenEarzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenEarzzTests.m; sourceTree = "<group>"; };
+		E1EE7D611B03B6D300C9B17D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E1EE7D631B03B6DA00C9B17D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1EE7D661B03B73900C9B17D /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		E1EE7D671B03B73900C9B17D /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		E1EE7D681B03B73900C9B17D /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		E1EE7D691B03B73900C9B17D /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1EE7D6D1B03B73900C9B17D /* Slt.framework in Frameworks */,
+				E1EE7D641B03B6DA00C9B17D /* AudioToolbox.framework in Frameworks */,
+				E1EE7D621B03B6D300C9B17D /* AVFoundation.framework in Frameworks */,
+				E1EE7D6C1B03B73900C9B17D /* OpenEars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +79,12 @@
 		E1EE7D2F1B03B6B600C9B17D = {
 			isa = PBXGroup;
 			children = (
+				E1EE7D631B03B6DA00C9B17D /* AudioToolbox.framework */,
+				E1EE7D611B03B6D300C9B17D /* AVFoundation.framework */,
 				E1EE7D3A1B03B6B600C9B17D /* OpenEarzz */,
 				E1EE7D541B03B6B600C9B17D /* OpenEarzzTests */,
 				E1EE7D391B03B6B600C9B17D /* Products */,
+				E1EE7D651B03B73900C9B17D /* Framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +136,17 @@
 				E1EE7D561B03B6B600C9B17D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1EE7D651B03B73900C9B17D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E1EE7D661B03B73900C9B17D /* AcousticModelEnglish.bundle */,
+				E1EE7D671B03B73900C9B17D /* AcousticModelSpanish.bundle */,
+				E1EE7D681B03B73900C9B17D /* OpenEars.framework */,
+				E1EE7D691B03B73900C9B17D /* Slt.framework */,
+			);
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1EE7D471B03B6B600C9B17D /* Main.storyboard in Resources */,
+				E1EE7D6B1B03B73900C9B17D /* AcousticModelSpanish.bundle in Resources */,
+				E1EE7D6A1B03B73900C9B17D /* AcousticModelEnglish.bundle in Resources */,
 				E1EE7D4C1B03B6B600C9B17D /* LaunchScreen.xib in Resources */,
 				E1EE7D491B03B6B600C9B17D /* Images.xcassets in Resources */,
 			);
@@ -349,6 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = OpenEarzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +395,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Framework",
+				);
 				INFOPLIST_FILE = OpenEarzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
