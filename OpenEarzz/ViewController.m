@@ -32,6 +32,7 @@ int voiceType;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.spch.delegate = self;
     self.fliteController = [[OEFliteController alloc] init];
     self.slt = [[Slt alloc] init];
     self.awb = [[Awb alloc] init];
@@ -84,16 +85,10 @@ int voiceType;
     
 }
 
-- (IBAction)UITextFieldTextDidEndEditingNotification:(id)sender {
+- (IBAction)UITextFieldTextDidEndEditing:(id)sender {
     
-    if([_spch.text isEqualToString:@""])
-    {
-        _text = @"I am speaking";
-    }
-    else {
-        
          _text = _spch.text;
-    }
+
 }
 
 - (IBAction)speak:(id)sender {
@@ -101,28 +96,28 @@ int voiceType;
     
     switch (voiceType) {
         case 0:
-            [self.fliteController say:_text withVoice:self.awb];
+            [self.fliteController say:_spch.text withVoice:self.awb];
             break;
         case 1:
-            [self.fliteController say:_text withVoice:self.awb8k];
+            [self.fliteController say:_spch.text withVoice:self.awb8k];
             break;
         case 2:
-            [self.fliteController say:_text withVoice:self.kal];
+            [self.fliteController say:_spch.text withVoice:self.kal];
             break;
         case 3:
-            [self.fliteController say:_text withVoice:self.kal16];
+            [self.fliteController say:_spch.text withVoice:self.kal16];
             break;
         case 4:
-            [self.fliteController say:_text withVoice:self.rms];
+            [self.fliteController say:_spch.text withVoice:self.rms];
             break;
         case 5:
-            [self.fliteController say:_text withVoice:self.rms8k];
+            [self.fliteController say:_spch.text withVoice:self.rms8k];
             break;
         case 6:
-            [self.fliteController say:_text withVoice:self.slt];
+            [self.fliteController say:_spch.text withVoice:self.slt];
             break;
         case 7:
-            [self.fliteController say:_text withVoice:self.slt8k];
+            [self.fliteController say:_spch.text withVoice:self.slt8k];
             break;
         default:
             break;

@@ -59,7 +59,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="UITextFieldTextDidEndEditingNotification:" destination="BYZ-38-t0r" eventType="valueChanged" id="1bY-it-D0J"/>
+                                    <action selector="UITextFieldTextDidEndEditing:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aon-SJ-Ww4"/>
                                 </connections>
                             </textField>
                         </subviews>

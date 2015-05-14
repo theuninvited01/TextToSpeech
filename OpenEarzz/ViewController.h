@@ -17,13 +17,13 @@
 #import <Kal16/Kal16.h>
 #import <OpenEars/OEFliteController.h>
 #import <OpenEars/OEEventsObserver.h>
-@interface ViewController : UIViewController <OEEventsObserverDelegate>{
+@interface ViewController : UIViewController <OEEventsObserverDelegate,UITextFieldDelegate>{
     OEEventsObserver *openEarsEventsObserver;
 }
 @property (strong, nonatomic) IBOutlet UIButton *speakButton;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segControl;
 @property (strong, nonatomic) IBOutlet UITextField *spch;
-@property(nonatomic, copy) NSString *text;
+@property(strong, nonatomic) NSString *text;
 @property (strong, nonatomic) OEEventsObserver *openEarsEventsObserver;
 @property(nonatomic, assign) id< UITextFieldDelegate > delegate;
 @end
