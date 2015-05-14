@@ -1,0 +1,1 @@
+OpenEarsExtras is everything optional that you might want to use with your OpenEars app, but don't have to. It includes the eight additional voices besides Slt which ships with the OpenEarsDistribution download and the Mandarin Chinese HMMs (these acoustic models are not supported by Politepix). This isn't OpenEars; OpenEars is here: http://www.politepix.com/openears

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,8 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fah-WK-p2v">
-                                <rect key="frame" x="277" y="55" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fah-WK-p2v">
+                                <rect key="frame" x="275" y="55" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="aQP-u1-c8g"/>
+                                    <constraint firstAttribute="width" constant="50" id="c5r-sB-Nb3"/>
+                                </constraints>
                                 <state key="normal" title="Speak">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,15 +30,76 @@
                                     <action selector="speak:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n86-j7-jR5"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Xlb-e2-C0b">
+                                <rect key="frame" x="16" y="138" width="568" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="568" id="US7-8Q-rQR"/>
+                                    <constraint firstAttribute="height" constant="28" id="vWU-iv-Srr"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Awb"/>
+                                    <segment title="Awb8k"/>
+                                    <segment title="Kal"/>
+                                    <segment title="Kal16"/>
+                                    <segment title="Rms"/>
+                                    <segment title="Rms8k"/>
+                                    <segment title="Slt_Original"/>
+                                    <segment title="Slt8k"/>
+                                </segments>
+                                <connections>
+                                    <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BIs-fK-y3g"/>
+                                </connections>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="I am speaking" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EhY-Ha-Jko">
+                                <rect key="frame" x="91" y="207" width="419" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9Ek-Fy-HSf"/>
+                                    <constraint firstAttribute="width" constant="419" id="led-EG-SVw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="UITextFieldTextDidEndEditingNotification:" destination="BYZ-38-t0r" eventType="valueChanged" id="1bY-it-D0J"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EhY-Ha-Jko" secondAttribute="bottom" constant="363" id="5ag-qx-kd9"/>
+                            <constraint firstItem="Xlb-e2-C0b" firstAttribute="top" secondItem="Fah-WK-p2v" secondAttribute="bottom" constant="33" id="BjX-C9-4Ft"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xlb-e2-C0b" secondAttribute="bottom" constant="434" id="IXw-O3-1Se"/>
+                            <constraint firstItem="Xlb-e2-C0b" firstAttribute="top" secondItem="Fah-WK-p2v" secondAttribute="bottom" constant="33" id="Kdj-BN-LZT"/>
+                            <constraint firstItem="EhY-Ha-Jko" firstAttribute="top" secondItem="Xlb-e2-C0b" secondAttribute="bottom" constant="41" id="WMk-88-l2E"/>
+                            <constraint firstItem="EhY-Ha-Jko" firstAttribute="top" secondItem="Xlb-e2-C0b" secondAttribute="bottom" constant="41" id="ZTb-0M-YgJ"/>
+                            <constraint firstItem="Fah-WK-p2v" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="jEf-1R-Z4J"/>
+                            <constraint firstAttribute="centerX" secondItem="Fah-WK-p2v" secondAttribute="centerX" constant="-2" id="snw-IN-Eu1"/>
+                            <constraint firstAttribute="centerX" secondItem="Fah-WK-p2v" secondAttribute="centerX" id="sqf-ze-5K0"/>
+                            <constraint firstItem="Xlb-e2-C0b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="tQh-iv-6vx"/>
+                            <constraint firstItem="EhY-Ha-Jko" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="wGM-p5-UiT"/>
+                            <constraint firstItem="Xlb-e2-C0b" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="xJl-my-aqC"/>
+                            <constraint firstAttribute="centerX" secondItem="Xlb-e2-C0b" secondAttribute="centerX" id="yWq-A6-d49"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Kdj-BN-LZT"/>
+                                <exclude reference="tQh-iv-6vx"/>
+                                <exclude reference="xJl-my-aqC"/>
+                                <exclude reference="ZTb-0M-YgJ"/>
+                                <exclude reference="snw-IN-Eu1"/>
+                                <exclude reference="5ag-qx-kd9"/>
+                                <exclude reference="IXw-O3-1Se"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
+                        <outlet property="segControl" destination="Xlb-e2-C0b" id="HdZ-RB-Bg4"/>
+                        <outlet property="spch" destination="EhY-Ha-Jko" id="hhx-n9-27I"/>
                         <outlet property="speakButton" destination="Fah-WK-p2v" id="XFT-yq-ZMz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="256" y="233"/>
         </scene>
     </scenes>
 </document>

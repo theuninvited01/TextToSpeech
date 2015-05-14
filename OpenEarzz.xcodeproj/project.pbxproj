@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1CCA1D31B03ED03000352B2 /* Awb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1D21B03ED03000352B2 /* Awb.framework */; };
+		E1CCA1D71B03F053000352B2 /* Awb8k.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1D61B03F053000352B2 /* Awb8k.framework */; };
+		E1CCA1F21B03F259000352B2 /* Kal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1F01B03F259000352B2 /* Kal.framework */; };
+		E1CCA1F31B03F259000352B2 /* Kal16.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1F11B03F259000352B2 /* Kal16.framework */; };
+		E1CCA1F61B03F289000352B2 /* Rms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1F41B03F289000352B2 /* Rms.framework */; };
+		E1CCA1F71B03F289000352B2 /* Rms8k.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1F51B03F289000352B2 /* Rms8k.framework */; };
+		E1CCA1F91B03F2A0000352B2 /* Slt8k.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CCA1F81B03F29F000352B2 /* Slt8k.framework */; };
 		E1EE7D3E1B03B6B600C9B17D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EE7D3D1B03B6B600C9B17D /* main.m */; };
 		E1EE7D411B03B6B600C9B17D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EE7D401B03B6B600C9B17D /* AppDelegate.m */; };
 		E1EE7D441B03B6B600C9B17D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1EE7D431B03B6B600C9B17D /* ViewController.m */; };
@@ -33,6 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1CCA1D21B03ED03000352B2 /* Awb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Awb.framework; path = "../Politepix-openearsextras-22073bb104d9/FliteVoices/Awb.framework"; sourceTree = "<group>"; };
+		E1CCA1D41B03F047000352B2 /* Awb8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Awb8k.framework; path = Framework/Awb8k.framework; sourceTree = "<group>"; };
+		E1CCA1D61B03F053000352B2 /* Awb8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Awb8k.framework; sourceTree = "<group>"; };
+		E1CCA1D81B03F136000352B2 /* Kal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kal.framework; path = Framework/Kal.framework; sourceTree = "<group>"; };
+		E1CCA1DA1B03F14C000352B2 /* Kal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kal.framework; sourceTree = "<group>"; };
+		E1CCA1DC1B03F1CA000352B2 /* Kal16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kal16.framework; path = Framework/Kal16.framework; sourceTree = "<group>"; };
+		E1CCA1DE1B03F1E5000352B2 /* Rms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rms.framework; path = Framework/Rms.framework; sourceTree = "<group>"; };
+		E1CCA1E01B03F200000352B2 /* Rms8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Rms8k.framework; path = Framework/Rms8k.framework; sourceTree = "<group>"; };
+		E1CCA1E31B03F22D000352B2 /* AcousticModelEnglish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelEnglish.bundle; sourceTree = "<group>"; };
+		E1CCA1E41B03F22D000352B2 /* AcousticModelSpanish.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AcousticModelSpanish.bundle; sourceTree = "<group>"; };
+		E1CCA1E51B03F22D000352B2 /* Awb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Awb.framework; sourceTree = "<group>"; };
+		E1CCA1E61B03F22D000352B2 /* Awb8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Awb8k.framework; sourceTree = "<group>"; };
+		E1CCA1E71B03F22D000352B2 /* Kal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kal.framework; sourceTree = "<group>"; };
+		E1CCA1E81B03F22D000352B2 /* Kal16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kal16.framework; sourceTree = "<group>"; };
+		E1CCA1E91B03F22D000352B2 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		E1CCA1EA1B03F22D000352B2 /* Rms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rms.framework; sourceTree = "<group>"; };
+		E1CCA1EB1B03F22D000352B2 /* Rms8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rms8k.framework; sourceTree = "<group>"; };
+		E1CCA1EC1B03F22D000352B2 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		E1CCA1ED1B03F22D000352B2 /* Slt8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt8k.framework; sourceTree = "<group>"; };
+		E1CCA1F01B03F259000352B2 /* Kal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kal.framework; sourceTree = "<group>"; };
+		E1CCA1F11B03F259000352B2 /* Kal16.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Kal16.framework; sourceTree = "<group>"; };
+		E1CCA1F41B03F289000352B2 /* Rms.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rms.framework; sourceTree = "<group>"; };
+		E1CCA1F51B03F289000352B2 /* Rms8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rms8k.framework; sourceTree = "<group>"; };
+		E1CCA1F81B03F29F000352B2 /* Slt8k.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt8k.framework; sourceTree = "<group>"; };
 		E1EE7D381B03B6B600C9B17D /* OpenEarzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenEarzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1EE7D3C1B03B6B600C9B17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1EE7D3D1B03B6B600C9B17D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +90,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CCA1F71B03F289000352B2 /* Rms8k.framework in Frameworks */,
+				E1CCA1F31B03F259000352B2 /* Kal16.framework in Frameworks */,
+				E1CCA1D71B03F053000352B2 /* Awb8k.framework in Frameworks */,
+				E1CCA1F21B03F259000352B2 /* Kal.framework in Frameworks */,
+				E1CCA1F91B03F2A0000352B2 /* Slt8k.framework in Frameworks */,
+				E1CCA1D31B03ED03000352B2 /* Awb.framework in Frameworks */,
+				E1CCA1F61B03F289000352B2 /* Rms.framework in Frameworks */,
 				E1EE7D6D1B03B73900C9B17D /* Slt.framework in Frameworks */,
 				E1EE7D641B03B6DA00C9B17D /* AudioToolbox.framework in Frameworks */,
 				E1EE7D621B03B6D300C9B17D /* AVFoundation.framework in Frameworks */,
@@ -76,9 +114,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1CCA1E21B03F22D000352B2 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				E1CCA1E31B03F22D000352B2 /* AcousticModelEnglish.bundle */,
+				E1CCA1E41B03F22D000352B2 /* AcousticModelSpanish.bundle */,
+				E1CCA1E51B03F22D000352B2 /* Awb.framework */,
+				E1CCA1E61B03F22D000352B2 /* Awb8k.framework */,
+				E1CCA1E71B03F22D000352B2 /* Kal.framework */,
+				E1CCA1E81B03F22D000352B2 /* Kal16.framework */,
+				E1CCA1E91B03F22D000352B2 /* OpenEars.framework */,
+				E1CCA1EA1B03F22D000352B2 /* Rms.framework */,
+				E1CCA1EB1B03F22D000352B2 /* Rms8k.framework */,
+				E1CCA1EC1B03F22D000352B2 /* Slt.framework */,
+				E1CCA1ED1B03F22D000352B2 /* Slt8k.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
 		E1EE7D2F1B03B6B600C9B17D = {
 			isa = PBXGroup;
 			children = (
+				E1CCA1E21B03F22D000352B2 /* Framework */,
+				E1CCA1E01B03F200000352B2 /* Rms8k.framework */,
+				E1CCA1DE1B03F1E5000352B2 /* Rms.framework */,
+				E1CCA1DC1B03F1CA000352B2 /* Kal16.framework */,
+				E1CCA1D81B03F136000352B2 /* Kal.framework */,
+				E1CCA1D41B03F047000352B2 /* Awb8k.framework */,
 				E1EE7D631B03B6DA00C9B17D /* AudioToolbox.framework */,
 				E1EE7D611B03B6D300C9B17D /* AVFoundation.framework */,
 				E1EE7D3A1B03B6B600C9B17D /* OpenEarzz */,
@@ -141,6 +203,14 @@
 		E1EE7D651B03B73900C9B17D /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				E1CCA1F81B03F29F000352B2 /* Slt8k.framework */,
+				E1CCA1F41B03F289000352B2 /* Rms.framework */,
+				E1CCA1F51B03F289000352B2 /* Rms8k.framework */,
+				E1CCA1F01B03F259000352B2 /* Kal.framework */,
+				E1CCA1F11B03F259000352B2 /* Kal16.framework */,
+				E1CCA1DA1B03F14C000352B2 /* Kal.framework */,
+				E1CCA1D61B03F053000352B2 /* Awb8k.framework */,
+				E1CCA1D21B03ED03000352B2 /* Awb.framework */,
 				E1EE7D661B03B73900C9B17D /* AcousticModelEnglish.bundle */,
 				E1EE7D671B03B73900C9B17D /* AcousticModelSpanish.bundle */,
 				E1EE7D681B03B73900C9B17D /* OpenEars.framework */,
@@ -384,6 +454,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"/Users/nathanielwarren/Downloads/Politepix-openearsextras-22073bb104d9/FliteVoices",
+					"$(PROJECT_DIR)/Politepix-openearsextras-22073bb104d9/FliteVoices",
 				);
 				INFOPLIST_FILE = OpenEarzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,6 +470,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Framework",
+					"/Users/nathanielwarren/Downloads/Politepix-openearsextras-22073bb104d9/FliteVoices",
+					"$(PROJECT_DIR)/Politepix-openearsextras-22073bb104d9/FliteVoices",
 				);
 				INFOPLIST_FILE = OpenEarzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,6 +532,7 @@
 				E1EE7D5D1B03B6B600C9B17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1EE7D5E1B03B6B600C9B17D /* Build configuration list for PBXNativeTarget "OpenEarzzTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +541,7 @@
 				E1EE7D601B03B6B600C9B17D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

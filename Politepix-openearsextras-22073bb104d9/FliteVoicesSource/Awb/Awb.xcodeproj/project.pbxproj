@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C40974515D1701300AED2CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C40974315D1701300AED2CF /* InfoPlist.strings */; };
+		8C40974E15D1708300AED2CF /* Awb.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C40974C15D1708300AED2CF /* Awb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C40974F15D1708300AED2CF /* Awb.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C40974D15D1708300AED2CF /* Awb.m */; };
+		8C40975C15D1715600AED2CF /* cmu_us_awb.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975115D1715600AED2CF /* cmu_us_awb.c */; };
+		8C40975D15D1715600AED2CF /* cmu_us_awb_cg.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975215D1715600AED2CF /* cmu_us_awb_cg.c */; };
+		8C40975E15D1715600AED2CF /* cmu_us_awb_cg_durmodel.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975315D1715600AED2CF /* cmu_us_awb_cg_durmodel.c */; };
+		8C40975F15D1715600AED2CF /* cmu_us_awb_cg_durmodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C40975415D1715600AED2CF /* cmu_us_awb_cg_durmodel.h */; };
+		8C40976015D1715600AED2CF /* cmu_us_awb_cg_f0_trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975515D1715600AED2CF /* cmu_us_awb_cg_f0_trees.c */; };
+		8C40976115D1715600AED2CF /* cmu_us_awb_cg_f0_trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C40975615D1715600AED2CF /* cmu_us_awb_cg_f0_trees.h */; };
+		8C40976215D1715600AED2CF /* cmu_us_awb_cg_phonestate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975715D1715600AED2CF /* cmu_us_awb_cg_phonestate.c */; };
+		8C40976315D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975815D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.c */; };
+		8C40976415D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C40975915D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.h */; };
+		8C40976515D1715600AED2CF /* cmu_us_awb_cg_single_params.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C40975A15D1715600AED2CF /* cmu_us_awb_cg_single_params.c */; };
+		8C40976615D1715600AED2CF /* voxdefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C40975B15D1715600AED2CF /* voxdefs.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C40973E15D1701300AED2CF /* Awb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Awb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C40974215D1701300AED2CF /* Awb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Awb-Info.plist"; sourceTree = "<group>"; };
+		8C40974415D1701300AED2CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C40974615D1701300AED2CF /* Awb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Awb-Prefix.pch"; sourceTree = "<group>"; };
+		8C40974C15D1708300AED2CF /* Awb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Awb.h; sourceTree = "<group>"; };
+		8C40974D15D1708300AED2CF /* Awb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Awb.m; sourceTree = "<group>"; };
+		8C40975115D1715600AED2CF /* cmu_us_awb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb.c; sourceTree = "<group>"; };
+		8C40975215D1715600AED2CF /* cmu_us_awb_cg.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg.c; sourceTree = "<group>"; };
+		8C40975315D1715600AED2CF /* cmu_us_awb_cg_durmodel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg_durmodel.c; sourceTree = "<group>"; };
+		8C40975415D1715600AED2CF /* cmu_us_awb_cg_durmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmu_us_awb_cg_durmodel.h; sourceTree = "<group>"; };
+		8C40975515D1715600AED2CF /* cmu_us_awb_cg_f0_trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg_f0_trees.c; sourceTree = "<group>"; };
+		8C40975615D1715600AED2CF /* cmu_us_awb_cg_f0_trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmu_us_awb_cg_f0_trees.h; sourceTree = "<group>"; };
+		8C40975715D1715600AED2CF /* cmu_us_awb_cg_phonestate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg_phonestate.c; sourceTree = "<group>"; };
+		8C40975815D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg_single_mcep_trees.c; sourceTree = "<group>"; };
+		8C40975915D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmu_us_awb_cg_single_mcep_trees.h; sourceTree = "<group>"; };
+		8C40975A15D1715600AED2CF /* cmu_us_awb_cg_single_params.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmu_us_awb_cg_single_params.c; sourceTree = "<group>"; };
+		8C40975B15D1715600AED2CF /* voxdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = voxdefs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C40973815D1701300AED2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C40972F15D1701300AED2CF = {
+			isa = PBXGroup;
+			children = (
+				8C40974C15D1708300AED2CF /* Awb.h */,
+				8C40975015D1715600AED2CF /* cmu_us_awb */,
+				8C40974D15D1708300AED2CF /* Awb.m */,
+				8C40974015D1701300AED2CF /* Awb */,
+				8C40973F15D1701300AED2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C40973F15D1701300AED2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C40973E15D1701300AED2CF /* Awb.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C40974015D1701300AED2CF /* Awb */ = {
+			isa = PBXGroup;
+			children = (
+				8C40974115D1701300AED2CF /* Supporting Files */,
+			);
+			path = Awb;
+			sourceTree = "<group>";
+		};
+		8C40974115D1701300AED2CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C40974215D1701300AED2CF /* Awb-Info.plist */,
+				8C40974315D1701300AED2CF /* InfoPlist.strings */,
+				8C40974615D1701300AED2CF /* Awb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C40975015D1715600AED2CF /* cmu_us_awb */ = {
+			isa = PBXGroup;
+			children = (
+				8C40975115D1715600AED2CF /* cmu_us_awb.c */,
+				8C40975215D1715600AED2CF /* cmu_us_awb_cg.c */,
+				8C40975315D1715600AED2CF /* cmu_us_awb_cg_durmodel.c */,
+				8C40975415D1715600AED2CF /* cmu_us_awb_cg_durmodel.h */,
+				8C40975515D1715600AED2CF /* cmu_us_awb_cg_f0_trees.c */,
+				8C40975615D1715600AED2CF /* cmu_us_awb_cg_f0_trees.h */,
+				8C40975715D1715600AED2CF /* cmu_us_awb_cg_phonestate.c */,
+				8C40975815D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.c */,
+				8C40975915D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.h */,
+				8C40975A15D1715600AED2CF /* cmu_us_awb_cg_single_params.c */,
+				8C40975B15D1715600AED2CF /* voxdefs.h */,
+			);
+			path = cmu_us_awb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C40973915D1701300AED2CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C40974E15D1708300AED2CF /* Awb.h in Headers */,
+				8C40975F15D1715600AED2CF /* cmu_us_awb_cg_durmodel.h in Headers */,
+				8C40976115D1715600AED2CF /* cmu_us_awb_cg_f0_trees.h in Headers */,
+				8C40976415D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.h in Headers */,
+				8C40976615D1715600AED2CF /* voxdefs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8C40973D15D1701300AED2CF /* Awb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C40974915D1701300AED2CF /* Build configuration list for PBXNativeTarget "Awb" */;
+			buildPhases = (
+				8C40973715D1701300AED2CF /* Sources */,
+				8C40973815D1701300AED2CF /* Frameworks */,
+				8C40973915D1701300AED2CF /* Headers */,
+				8C40973A15D1701300AED2CF /* Resources */,
+				8C40973C15D1701300AED2CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Awb;
+			productName = Awb;
+			productReference = 8C40973E15D1701300AED2CF /* Awb.framework */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C40973115D1701300AED2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Politepix;
+			};
+			buildConfigurationList = 8C40973415D1701300AED2CF /* Build configuration list for PBXProject "Awb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C40972F15D1701300AED2CF;
+			productRefGroup = 8C40973F15D1701300AED2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C40973D15D1701300AED2CF /* Awb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C40973A15D1701300AED2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C40974515D1701300AED2CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C40973C15D1701300AED2CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/python \"${PROJECT_FILE_PATH}/../../../framework_script.py\"\n\nrm -rf \"${PROJECT_FILE_PATH}/../../../FliteVoices/${PRODUCT_NAME}.framework/\"\ncp -a \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.framework/\" \"${PROJECT_FILE_PATH}/../../../FliteVoices/${PRODUCT_NAME}.framework/\"\n\nstrip -x \"${PROJECT_FILE_PATH}/../../../FliteVoices/${PRODUCT_NAME}.framework/Versions/A/${PRODUCT_NAME}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C40973715D1701300AED2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C40974F15D1708300AED2CF /* Awb.m in Sources */,
+				8C40975C15D1715600AED2CF /* cmu_us_awb.c in Sources */,
+				8C40975D15D1715600AED2CF /* cmu_us_awb_cg.c in Sources */,
+				8C40975E15D1715600AED2CF /* cmu_us_awb_cg_durmodel.c in Sources */,
+				8C40976015D1715600AED2CF /* cmu_us_awb_cg_f0_trees.c in Sources */,
+				8C40976215D1715600AED2CF /* cmu_us_awb_cg_phonestate.c in Sources */,
+				8C40976315D1715600AED2CF /* cmu_us_awb_cg_single_mcep_trees.c in Sources */,
+				8C40976515D1715600AED2CF /* cmu_us_awb_cg_single_params.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C40974315D1701300AED2CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C40974415D1701300AED2CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C40974715D1701300AED2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+			};
+			name = Debug;
+		};
+		8C40974815D1701300AED2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+			};
+			name = Release;
+		};
+		8C40974A15D1701300AED2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_FILE_PATH}/../../../../OpenEarsDistribution/Framework/";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awb/Awb-Prefix.pch";
+				INFOPLIST_FILE = "Awb/Awb-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8C40974B15D1701300AED2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
+				DEAD_CODE_STRIPPING = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "${PROJECT_FILE_PATH}/../../../../OpenEarsDistribution/Framework/";
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Awb/Awb-Prefix.pch";
+				INFOPLIST_FILE = "Awb/Awb-Info.plist";
+				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				UNLOCALIZED_RESOURCES_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Resources";
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C40973415D1701300AED2CF /* Build configuration list for PBXProject "Awb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C40974715D1701300AED2CF /* Debug */,
+				8C40974815D1701300AED2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C40974915D1701300AED2CF /* Build configuration list for PBXNativeTarget "Awb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C40974A15D1701300AED2CF /* Debug */,
+				8C40974B15D1701300AED2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C40973115D1701300AED2CF /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Rms8k' target in the 'Rms8k' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
