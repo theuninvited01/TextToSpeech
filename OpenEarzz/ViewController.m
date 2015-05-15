@@ -85,12 +85,6 @@ int voiceType;
     
 }
 
-- (IBAction)UITextFieldTextDidEndEditing:(id)sender {
-    
-         _text = _spch.text;
-
-}
-
 - (IBAction)speak:(id)sender {
     
     
